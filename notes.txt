@@ -1,0 +1,2 @@
+01	sunc1205/python-c-	
+	Python调用C动态库，使用ctypes库中的cdll.LoadLibrary("库名字")
