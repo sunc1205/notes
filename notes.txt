@@ -1,5 +1,6 @@
 01	sunc1205/python-c-	
 	Python调用C动态库，使用ctypes库中的cdll.LoadLibrary("库名字")
+
 02	sunc1205/python-cpp		这个比较实用 可以展开学习
 	Python调用外部程序，使用subprocess库中的
 		source.encode转换
@@ -7,4 +8,15 @@
 		.communicate(input=ss)#打开，并通信
 		res=result[0].decode()[0:leng]#获取结构，并处理
 	最后返回return res
-03
+
+03	sunc1205/script2exe	涉及命令行的参数获取
+	getopt，只能简单处理 命令行参数，在《Deep in python》一书中也有提到，
+	optparse，可生成标准的、符合Unix/Posix 规范的命令行
+
+04	sunc1205/RunExeFiles	使用EasyGUI run executable
+	模块	easygui	subprocess	glob
+
+05	sunc1205/uiwpfdriver	
+	subproces
+
+06	kernel32
