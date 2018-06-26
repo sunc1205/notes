@@ -7,3 +7,4 @@
 		.communicate(input=ss)#打开，并通信
 		res=result[0].decode()[0:leng]#获取结构，并处理
 	最后返回return res
+03
